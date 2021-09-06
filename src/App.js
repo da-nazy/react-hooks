@@ -1,8 +1,15 @@
 
-function App() {
-  return (
- <h1>Welcome to the course</h1>
-  );
+import React,{Component} from 'react';
+
+class App extends Component{
+  render(){
+    return(
+    <button>
+      My test
+    </button>
+
+    )
+  }
 }
 
 export default App;
